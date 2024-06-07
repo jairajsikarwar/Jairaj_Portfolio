@@ -21,14 +21,14 @@ const Navbar = () => {
           {" "}
           <FaLinkedin />
         </motion.a>
-        <motion.span whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+        <motion.a whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="hover" href="https://github.com/jairajsikarwar">
           {" "}
           <FaGithub />{" "}
-        </motion.span>
-        <motion.span whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+        </motion.a>
+        <motion.a whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="hover" href="https://www.linkedin.com/in/jairaj-sikarwar-cs-15428b220/">
           {" "}
           <FaInstagram />{" "}
-        </motion.span>
+        </motion.a>
       </div>
     </nav>
   );
